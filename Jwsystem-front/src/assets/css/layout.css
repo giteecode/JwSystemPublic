@@ -1,0 +1,448 @@
+.add_admin {
+  height: 100%;
+  width: 2.8rem;
+  background: url(../images/add_admin.png) no-repeat center;
+  background-size: 58% auto;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: block;
+}
+
+.user_list_box {
+  border-bottom: 1px dashed #d3d9df;
+  display: block;
+  padding: 0.8rem 0px;
+}
+
+.user_list_l {
+  float: left;
+}
+
+.user_list_r {
+  float: right;
+}
+
+.user_list_item {
+  line-height: 1.6rem;
+}
+
+.user_list_label {
+  font-size: 0.9rem;
+  color: #8c969f;
+  width: 4rem;
+  display: inline-block;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.user_list_value {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.user_btn {
+  display: block;
+}
+
+.user_list_start {
+  color: #85cd72;
+  border: 1px solid #85cd72;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.4rem;
+  vertical-align: top;
+  line-height: 1rem;
+}
+
+.user_list_del {
+  color: #f16b91;
+  border: 1px solid #f16b91;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.4rem;
+  vertical-align: top;
+  height: 1rem;
+  line-height: 1rem;
+}
+
+.bottom_menu {
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  z-index: 98;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0.6rem 0;
+}
+
+.bottom_menu_btn {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #333;
+}
+
+.bottom_menu_btn i {
+  display: inline-block;
+}
+
+.bottom_menu a:nth-child(1) {
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.bottom_btn1 {
+  background: url(../images/bot_menu_icon1.png) no-repeat center;
+  width: 60px;
+  height: 2rem;
+  background-size: 60%;
+  vertical-align: top;
+}
+
+.bottom_btn2 {
+  background: url(../images/bot_menu_icon3.png) no-repeat center;
+  width: 50px;
+  height: 2rem;
+  background-size: 60%;
+  vertical-align: top;
+}
+
+.bottom_menu .btn_active {
+  color: #4a81e8;
+}
+
+.bottom_menu .btn_active .bottom_btn1 {
+  background: url(../images/bot_menu_icon2.png) no-repeat center;
+  width: 60px;
+  height: 2rem;
+  background-size: 60%;
+  vertical-align: top;
+}
+
+.bottom_menu .btn_active .bottom_btn2 {
+  background: url(../images/bot_menu_icon4.png) no-repeat center;
+  width: 50px;
+  height: 2rem;
+  background-size: 60%;
+  vertical-align: top;
+}
+
+.shop_register_item {
+  line-height: 2rem;
+  border-bottom: 1px dashed #d3d9df;
+  display: block;
+  padding: 0.8rem 0px;
+}
+
+.shop_register_label {
+  font-size: 0.9rem;
+  color: #333;
+  width: 6rem;
+  display: inline-block;
+  text-align: right;
+  float: left;
+  padding-right: 10px;
+}
+
+.shop_register_value {
+  color: #4a81e8;
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 6rem - 10px);
+  font-size: 0.9rem;
+}
+
+.shop_inp {
+  margin: 0px;
+  color: #333;
+  vertical-align: top;
+  width: 100%;
+  height: 2rem;
+  font-size: 0.85rem;
+  padding: 0px 0.6rem;
+  box-sizing: border-box;
+  background: #e3effb;
+  border-radius: 3px;
+  border: 1px solid #c8ced3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.shop_photo_btn {
+  background: url(../images/shop_photo_btn.png) no-repeat center #e3effb;
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  background-size: 70%;
+  border: 1px solid #c8ced3;
+  border-radius: 3px;
+  float: left;
+}
+
+.shop_user_card {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #c8ced3;
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  margin-left: 10px;
+}
+
+.shop_user_card img {
+  width: 1.8rem;
+}
+
+.shop_register_value > i {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 0px;
+  right: 0px;
+  background: url(../images/icon_down2.png) no-repeat center;
+  background-size: 35% auto;
+}
+
+.search_main_user {
+  width: 100%;
+  position: relative;
+  height: 2rem;
+  float: left;
+}
+
+.search_main_user input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  color: #333;
+  padding: 0px 0.6rem;
+  padding-right: 2rem;
+  border-radius: 3px;
+  background: #e6f1fc;
+  border: 1px solid #d8e3ed;
+  box-shadow: 0 0 4px #d8e3ed inset;
+  font-size: 0.9rem;
+}
+
+.search_main_user button {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../images/icon_search.png) no-repeat center;
+  border: none;
+  background-size: 80% auto;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+}
+
+.box_a .shop_register_item:nth-child(1) {
+  padding-top: 0;
+}
+
+.box_a .user_list_warp .user_list_box:nth-child(1) {
+  padding-top: 0;
+}
+
+
+/*login*/
+
+.login_icon {
+  margin-top: 15px;
+}
+
+.login_icon img {
+  width: 3rem;
+}
+
+.main_login {
+  z-index: 99;
+  padding: 0px 0.8rem;
+  padding-top: 6.8rem;
+  z-index: 97;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.bg_c {
+  height: 8.5rem;
+  width: 100%;
+  background-image: linear-gradient(#4b92e8, #4a80e8);
+  position: fixed;
+  z-index: 96;
+  top: 2.8rem;
+}
+
+.login_item {
+  border-bottom: 1px solid #ddd;
+  padding: 0.6rem 0px;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+
+.login_tel {
+  border: none;
+  color: #333;
+  font-size: 0.9rem;
+  display: inline-block;
+  background: url(../images/login_tel.png) no-repeat 0.8rem center;
+  text-indent: 2.4rem;
+  background-size: 6%;
+  width: 100%;
+  height: 2rem;
+  outline: none;
+}
+
+.login_code {
+  border: none;
+  color: #333;
+  font-size: 0.9rem;
+  display: inline-block;
+  background: url(../images/login_code.png) no-repeat 0.8rem center;
+  text-indent: 2.4rem;
+  background-size: 7%;
+  width: 100%;
+  height: 2rem;
+  outline: none;
+}
+
+.login_code_btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 0;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.9rem;
+  color: #4a84e8;
+  display: block;
+  padding: 0 0.2rem;
+  padding-left: 0.8rem;
+  z-index: 100;
+  border-left: 1px solid #eee;
+}
+
+
+/*兼容ipad横屏*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .login_tel {
+    background-size: 3%;
+  }
+
+  .login_code {
+    background-size: 3%;
+  }
+}
+
+
+/*兼容ipad竖屏*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .login_tel {
+    background-size: 4%;
+  }
+
+  .login_code {
+    background-size: 4%;
+  }
+}
+
+.login_code_btn a {
+  color: #4a84e8;
+  display: block;
+}
+
+.box_a .login_item:last-child {
+  margin-bottom: 0.6rem;
+}
+
+/* .bg_b {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(../images/bg.jpg) no-repeat center bottom #e3effa;
+    background-size: 100% auto;
+} */
+.bottom_menu_btn {
+  display: inline-block;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  color: #333;
+  line-height: 1.1rem;
+  font-size: 0.8rem;
+  color: #8d9398;
+}
+
+.bottom_menu_btn p {
+  position: relative;
+  top: 0.1rem;
+}
+
+.bottom_menu_btn i {
+  display: inline-block;
+  margin-top: -0.2rem;
+}
+
+.bottom_menu a:nth-child(1) {
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.bottom_btn0 {
+  background: url(../images/bot_menu_icon0.png) no-repeat center;
+  width: 60px;
+  height: 1.2rem;
+  background-size: auto 100%;
+  vertical-align: top;
+}
+
+.bottom_btn1 {
+  background: url(../images/bot_menu_icon1.png) no-repeat center;
+  width: 60px;
+  height: 1.2rem;
+  background-size: auto 100%;
+  vertical-align: top;
+}
+
+.bottom_btn2 {
+  background: url(../images/bot_menu_icon3.png) no-repeat center;
+  width: 50px;
+  height: 1.2rem;
+  background-size: auto 100%;
+  vertical-align: top;
+}
+
+.bottom_menu .btn_active {
+  color: #4a81e8;
+}
+
+.bottom_menu .btn_active .bottom_btn0 {
+  background: url(../images/bot_menu_icon01.png) no-repeat center;
+  width: 60px;
+  height: 1.2rem;
+  background-size: auto 100%;
+  vertical-align: top;
+}
+
+.bottom_menu .btn_active .bottom_btn1 {
+  background: url(../images/bot_menu_icon2.png) no-repeat center;
+  width: 60px;
+  height: 1.2rem;
+  background-size: auto 100%;
+  vertical-align: top;
+}
+
+.bottom_menu .btn_active .bottom_btn2 {
+  background: url(../images/bot_menu_icon4.png) no-repeat center;
+  width: 50px;
+  height: 1.2rem;
+  background-size: auto 100%;
+  vertical-align: top;
+}

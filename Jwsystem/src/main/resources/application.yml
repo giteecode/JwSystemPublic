@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql://localhost:3306/jw-springboot?characterEncoding=utf-8
+    username: root
+    password: root
+  thymeleaf:
+    cache: false
+  banner:
+    location: public/banner.txt
+shiro:
+  loginUrl: /
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+filepath: E:\educationProject\教务管理系统\educationvue\Jwsystem\images

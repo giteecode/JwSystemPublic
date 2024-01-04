@@ -1,0 +1,335 @@
+#app .main-container {
+  background: #f0f2f5;
+}
+
+.el-table {
+  border: 1px solid #ddd !important;
+  font-size: 14px;
+}
+
+.el-table tr:nth-of-type(even) {
+  background: #ecf7ff;
+}
+
+.el-table tr th {
+  color: #fff;
+  background-color: #5297ff;
+}
+
+.el-tabs {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+.head-container {
+  background: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.el-tabs__nav-wrap {
+  padding: 0 15px;
+}
+
+.el-card__body {
+  padding: 5px 20px;
+}
+
+.el-timeline {
+  padding: 0 20px;
+}
+
+.el-timeline-item__node--normal {
+  background: #3f97ff;
+  left: -3px;
+  width: 16px;
+  height: 16px;
+}
+
+.place_con {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  min-height: 285px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc
+}
+
+.place_con p {
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .right-menu .right-menu-item {
+  display: inline-block;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+.el-tabs__header {
+  padding: 15px 0 0 !important;
+}
+
+.element.style {
+  margin: 20px 20px 30px;
+  padding: 30px 20px 10px;
+  border: 1px solid #ddd;
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+}
+
+
+/*20200119样式调整*/
+
+.el-scrollbar__wrap .el-menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#346cd6), to(#4cace8)) !important;
+  background-image: linear-gradient(#346cd6, #4cace8) !important;
+}
+
+.el-scrollbar__wrap .el-menu-item {
+  background: none !important;
+  color: #fff !important;
+}
+
+.el-scrollbar__wrap .el-menu-item {
+  background: none !important;
+  color: #fff !important;
+}
+
+.el-submenu.is-active .el-submenu__title {
+  border-bottom-color: #1890ff;
+}
+
+.el-scrollbar__wrap .is-opened .el-submenu__title {
+  background-color: #194ba7 !important;
+}
+
+.el-scrollbar__wrap .el-menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#346cd6), to(#4cace8)) !important;
+  background-image: linear-gradient(#346cd6, #4cace8) !important;
+}
+
+.el-submenu .el-menu {
+  border: none;
+}
+
+#app .sidebar-container .nest-menu .el-submenu > .el-submenu__title,
+#app .sidebar-container .el-submenu .el-menu-item {
+  background: #215ac6 !important;
+}
+
+.el-scrollbar__wrap .el-menu-item {
+  background: none !important;
+  color: #fff !important;
+}
+
+#app .sidebar-container .nest-menu .el-submenu > .el-submenu__title:hover,
+#app .sidebar-container .el-submenu .el-menu-item:hover {
+  background: #194ba7 !important;
+}
+
+.tags-view-container .tags-view-wrapper .tags-view-item.active[data-v-a8ca2eea] {
+  background-color: #4cace8 !important;
+  border-color: #4cace8 !important;
+}
+
+.el-menu-item.is-active {
+  background-color: #194ba7 !important;
+}
+
+.el-submenu__title {
+  background: none !important;
+  color: #fff !important;
+}
+
+.el-submenu__title i {
+  color: #fff !important;
+}
+
+.el-button--success {
+  color: #FFFFFF;
+  background-color: #2eca70 !important;
+  border-color: #2eca70 !important;
+}
+
+.el-button--warning {
+  color: #FFFFFF;
+  background-color: #eebe00 !important;
+  border-color: #e4b702 !important;
+}
+
+.el-button--danger {
+  color: #FFFFFF;
+  background-color: #ea6f0b !important;
+  border-color: #ea6f0b !important;
+}
+
+.el-button--mini {
+  padding: 7px 10px !important;
+}
+
+.el-button:hover {
+  opacity: 0.8;
+}
+
+.logo-con {
+  border-bottom: 1px solid #6ea1ff;
+}
+
+.title_a {
+  /*font-size: 16px;*/
+  /*border-left: 4px solid #5297ff;*/
+  /*padding-left: 8px;*/
+  /*height: 16px;*/
+  /*line-height: 16px;*/
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 0.4rem;
+  font-weight: normal;
+  border-left: 3px solid #4ba1e9;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  padding-left: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.sy > .el-row {
+  background: #fff;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sy .el-table th,
+.sy .el-table td {
+  padding: 10px 0px !important;
+}
+
+.sy .el-table th {
+  text-align: center;
+}
+
+.head-container {
+  border-top: 1px solid #ddd;
+}
+
+.el-tree {
+  border: 1px solid #ddd;
+}
+
+.el-table .caret-wrapper {
+  height: 14px !important;
+}
+
+.el-table .sort-caret.ascending {
+  top: -4px;
+}
+
+.el-table .sort-caret.descending {
+  bottom: -4px;
+}
+
+#app .sidebar-container .nest-menu .el-submenu > .el-submenu__title, #app .sidebar-container .el-submenu .router-link-active .el-menu-item {
+  background: #5297ff !important;
+}
+
+#app .sidebar-container .nest-menu .el-submenu > .el-submenu__title:hover, #app .sidebar-container .el-submenu .el-menu-item:hover {
+  background: #5297ff !important;
+}
+
+.el-table th > .cell {
+  line-height: 16px;
+}
+
+.el-dialog__header {
+  background: #5297ff;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-size: 16px !important;
+  color: #fff;
+}
+
+.el-dialog__header span {
+  font-size: 16px !important;
+}
+
+.but_box {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.but_box > button {
+  position: relative !important;
+  left: auto !important;
+  display: inline-block;
+  right: auto !important;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #fff !important;
+}
+
+.el-dialog__title {
+  color: #fff !important;
+}
+
+.el-button + .el-button {
+  margin-left: 2px !important;
+}
+
+.zt_name > i {
+  display: inline-block;
+  height: 1rem;
+  padding: 0px 0.4rem;
+  font-style: initial;
+  font-size: 0.7rem;
+  color: #e24e79;
+  background: #fce7ed;
+  border-radius: 0.5rem;
+}
+
+.legend_box_a > p {
+  margin: 0px;
+}
+
+.sy .el-table td, .sy .el-table th {
+  padding: 6px 0px !important;
+}
+
+.head-container {
+  padding-bottom: 0px !important;
+}
+
+.el-table .caret-wrapper {
+  height: 14 !important;
+}
+
+.el-table .sort-caret.ascending {
+  top: -4px !important;
+}
+
+.el-table .sort-caret.descending {
+  bottom: -4px !important;
+}
+
+.el-card__header {
+  padding: 6px 10px !important;
+}
+
+.sy > .el-row {
+  background: none;
+  box-shadow: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+

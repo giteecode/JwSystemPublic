@@ -1,0 +1,99 @@
+/* 
+ *@名称: base.css
+ *@功能: 全局定义样式
+ *@作者: Sky
+ *@版本: v1.0
+ *@时间: 2016-03-21
+ */
+@charset "utf-8";
+
+/*
+  @全局定义CSS
+*/
+* { margin:0px; padding:0px;}
+html, body { height: 100%; font-size: 12px; width: 100%; color: #333; font-family: "微软雅黑";}
+a { text-decoration: none; color: #4f4f4f;}
+li { list-style-type: none;}
+img { border: 0; vertical-align: middle;}
+.clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+.clear { *zoom: 1;}
+.overHide { overflow: hidden;}
+.hide { display: none; }
+.show { display: show; }
+.block { display: block;}
+.inline { display: inline; }
+.inline-block { display: inline-block; }
+.floatL { float: left; }
+.floatR { float: right; }
+.center { margin-left: auto; margin-right: auto; }
+.m5 { margin: 5px; }
+.m10 { margin: 10px; }
+.m15 { margin: 15px; }
+.mT4 { margin-top: 4px; }
+.mT5 { margin-top: 5px; }
+.mT10 { margin-top: 10px; }
+.mT15 { margin-top: 15px; }
+.mT20 { margin-top: 20px; }
+.mT25 { margin-top: 25px; }
+.mT30 { margin-top: 30px; }
+.mL4 { margin-left: 4px; }
+.mL5 { margin-left: 5px; }
+.mL10 { margin-left: 10px; }
+.mL15 { margin-left: 15px; }
+.mL20 { margin-left: 20px; }
+.mL30 { margin-left: 30px; }
+.mR4 { margin-right: 4px; }
+.mR5 { margin-right: 5px; }
+.mR10 { margin-right: 10px; }
+.mR15 { margin-right: 15px; }
+.mR20 { margin-right: 20px; }
+.mR25 { margin-right: 25px; }
+.mR30 { margin-right: 30px; }
+.mR70 { margin-right: 70px; }
+.mB4 { margin-bottom: 4px; }
+.mB5 { margin-bottom: 5px; }
+.mB10 { margin-bottom: 10px; }
+.mB15 { margin-bottom: 15px; }
+.mB20 { margin-bottom: 20px; }
+.mB30 { margin-bottom: 30px; }
+.p0 { padding: 0; }
+.p1 { padding: 1px; }
+.p5 { padding: 5px; }
+.p10 { padding: 10px; }
+.p15 { padding: 15px; }
+.p30 { padding: 30px; }
+.p30 { padding: 30px\9; }
+.pT2 { padding-top: 2px; }
+.pT5 { padding-top: 5px;}
+.pT10 { padding-top: 10px; }
+.pT15 { padding-top: 15px; }
+.pT20 { padding-top: 20px; }
+.pT25 { padding-top: 25px; }
+.pT30 { padding-top: 30px; }
+.pL5 { padding-left: 5px; }
+.pL10 { padding-left: 10px; }
+.pL15 { padding-left: 15px; }
+.pL18 { padding-left: 18px; }
+.pL20 { padding-left: 20px; }
+.pL30 { padding-left: 30px; }
+.pL30 { padding-left: 30px; }
+.pL60 { padding-left: 60px; }
+.pR5 { padding-right: 5px; }
+.pR10 { padding-right: 10px; }
+.pR15 { padding-right: 15px; }
+.pR20 { padding-right: 20px; }
+.pR30 { padding-right: 30px; }
+.pB5 { padding-bottom: 5px; }
+.pB10 { padding-bottom: 10px; }
+.pB15 { padding-bottom: 15px; }
+.pB20 { padding-bottom: 20px; }
+.pB30 { padding-bottom: 30px; }
+.tLeft { text-align: left; }
+.tCenter { text-align: center; }
+.tRight { text-align: right; }
+.uLine { text-decoration: underline;}
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.t2 { text-indent: 2em; }
+.cyan { background-color: #f7fafc;}
+/***************************************************************/

@@ -1,0 +1,35 @@
+package com.zxw.jwxt.domain;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import io.swagger.annotations.ApiModel;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+
+/**
+ * <p>
+ *
+ * </p>
+ *
+ * @author zxw
+ * @since 2023-11-07
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+@ApiModel(value = "TCollege对象", description = "")
+public class TCollege implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    @TableId(type = IdType.INPUT)
+    private String id;
+
+    private String name;
+    // 1表示可用，0表示不可用
+    private String status;
+
+
+}
