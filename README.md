@@ -1,4 +1,19 @@
-## 基于Java+Springboot+Vue的教务管理系统(源代码+数据库)115
+### 作者微信：grapro666 QQ：3642795578 (支持部署调试、支持代做毕设和论文)
+
+### 接javaweb、python、小程序、H5、APP、各种管理系统、单片机、嵌入式等开发
+
+### 选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt
+
+**博客地址：
+[https://blog.csdn.net/2303_76227485/article/details/135274762](https://blog.csdn.net/2303_76227485/article/details/135274762)**
+
+**视频演示：
+[https://www.bilibili.com/video/BV1cT4y1x79z/](https://www.bilibili.com/video/BV1cT4y1x79z/)**
+
+**毕业设计所有选题地址：
+[https://github.com/codegitpro/allProject](https://github.com/codegitpro/allProject)**
+
+## 基于Java+Springboot+Vue的教务管理系统(源代码+数据库+开题+ppt)115
 
 ## 一、系统介绍
 本项目前后端分离，本系统分为管理员、教务人员、教师、学生四种角色
